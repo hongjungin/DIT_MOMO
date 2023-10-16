@@ -1,0 +1,315 @@
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 128rem;
+}
+.main {
+  width: 100%;
+  height: 83.2rem;
+}
+.main .host-cik {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  background-color: #fdfaf7;
+}
+.main .host-cik .headerGroup {
+  width: 121.5rem;
+  height: 5rem;
+  position: absolute;
+  left: 4.7rem;
+  top: 2.6rem;
+  display: flex;
+  align-items: center;
+}
+.main .host-cik .headerGroup .momoLogo {
+  margin: 0rem 78.5rem 0.3rem 0rem;
+  font-size: 3.2rem;
+  font-weight: 800;
+  line-height: 1.2125;
+  color: #ffa101;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.momoLogo a{
+  text-decoration: none;
+  color: #ffa101;
+}
+.main .host-cik .headerGroup .userControlsGroup {
+  width: 32rem;
+  height: 100%;
+  position: relative;
+  flex-shrink: 0;
+}
+.main .host-cik .headerGroup .userControlsGroup .authenticationButtonsFrame {
+  width: 32rem;
+  height: 3.5rem;
+  position: absolute;
+  left: 0;
+  top: 0.8rem;
+}
+.main .host-cik .headerGroup .userControlsGroup .authenticationButtonsFrame .signUpButton {
+  box-sizing: border-box;
+  padding: 0.8rem 2.15rem 0.7rem 2.15rem;
+  width: 11.7rem;
+  height: 3.5rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.2125;
+  letter-spacing: 0.046rem;
+  color: #31525b;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  border: solid 0.1rem #31525b;
+  border-radius: 0.5rem;
+}
+.signUpButton a{
+  color: #31525b;
+  text-decoration: none;
+}
+.main .host-cik .headerGroup .userControlsGroup .authenticationButtonsFrame .logInButton {
+  box-sizing: border-box;
+  padding: 0.8rem 2.2rem 0.7rem 2.2rem;
+  width: 9.8rem;
+  height: 3.5rem;
+  position: absolute;
+  left: 12.2rem;
+  top: 0;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.2125;
+  letter-spacing: 0.046rem;
+  color: #ffffff;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  background-color: #ffa101;
+  border-radius: 0.5rem;
+}
+.logInButton a{
+  color: #ffffff;
+  text-decoration: none;
+}
+.main .host-cik .headerGroup .userControlsGroup .userAvatar {
+  width: 5rem;
+  height: 5rem;
+  position: absolute;
+  left: 23.7rem;
+  top: 0;
+  object-fit: contain;
+  vertical-align: top;
+  border-radius: 3rem;
+}
+.main .host-cik .userRolesGroup {
+  box-sizing: border-box;
+  padding: 0 4.2rem;
+  width: 118.5rem;
+  height: 5.8rem;
+  position: absolute;
+  left: 4.7rem;
+  top: 10.4rem;
+  border-bottom: solid 0.1rem #000000;
+}
+.main .host-cik .userRolesGroup .rolesTabGroup {
+  width: 16.5rem;
+  height: 3.7rem;
+  display: flex;
+  align-items: center;
+}
+.main .host-cik .userRolesGroup .rolesTabGroup .guestTab {
+  margin-right: 5.5rem;
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 1.2125;
+  font-style: italic;
+  color: #000000;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+  transition: transform 0.3s ease;  /* 애니메이션 효과를 부드럽게 전환합니다. */
+  cursor: pointer;  /* 마우스를 올렸을 때 포인터로 표시합니다. */
+}
+.main .host-cik .userRolesGroup .rolesTabGroup .hostTab {
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 1.2125;
+  font-style: italic;
+  color: #000000;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+  transition: transform 0.3s ease;  /* 애니메이션 효과를 부드럽게 전환합니다. */
+  cursor: pointer;  /* 마우스를 올렸을 때 포인터로 표시합니다. */
+}
+.guestTab a, .hostTab a{
+  color: #000000;
+  text-decoration: none;
+}
+.guestTab:hover, .hostTab:hover {
+  transform: scale(1.1);  /* 마우스를 올렸을 때 10% 확대됩니다. */
+}
+.main .host-cik .cancle_set {
+  width: 78.2rem;
+  height: 18rem;
+  position: absolute;
+  left: 20.1rem;
+  top: 19.6rem;
+  display: flex;
+  align-items: center;
+}
+.main .host-cik .cancle_set .cancle {
+  margin: 1.1rem 25.7rem 0rem 0rem;
+  font-size: 6rem;
+  font-weight: 400;
+  line-height: 1.2125;
+  font-style: italic;
+  color: #000000;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.main .host-cik .cancle_set .cancle_line {
+  width: 18rem;
+  height: 18rem;
+  background-color: #d9d9d9;
+  flex-shrink: 0;
+}
+.main .host-cik .cancleform {
+  width: 11.4rem;
+  height: 3.4rem;
+  position: absolute;
+  left: 20.1rem;
+  top: 43.6rem;
+  font-size: 2.8rem;
+  font-weight: 400;
+  line-height: 1.2125;
+  font-style: italic;
+  color: #000000;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.main .host-cik .reply1 {
+  width: 57.2rem;
+  height: 3.4rem;
+  position: absolute;
+  left: 20.2rem;
+  top: 55.8rem;
+  font-size: 2.8rem;
+  font-weight: 400;
+  line-height: 1.2125;
+  font-style: italic;
+  color: #000000;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.main .host-cik .reply2 {
+  width: 43.3rem;
+  height: 3.4rem;
+  position: absolute;
+  left: 20.2rem;
+  top: 65.5rem;
+  font-size: 2.8rem;
+  font-weight: 400;
+  line-height: 1.2125;
+  font-style: italic;
+  color: #000000;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.main .host-cik .reply3 {
+  width: 63.6rem;
+  height: 3.4rem;
+  position: absolute;
+  left: 20.1rem;
+  top: 49.7rem;
+  font-size: 2.8rem;
+  font-weight: 400;
+  line-height: 1.2125;
+  font-style: italic;
+  color: #000000;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.main .host-cik .medleline {
+  width: 87.5rem;
+  height: 0.1rem;
+  position: absolute;
+  left: 15.1rem;
+  top: 40.3rem;
+  background-color: #000000;
+}
+.main .host-cik .reply_button {
+  width: 19.5rem;
+  height: 4.3rem;
+  position: absolute;
+  left: 50.2rem;
+  top: 76.4rem;
+  font-size: 2.8rem;
+  font-weight: 400;
+  line-height: 1.2125;
+  font-style: italic;
+  color: #000000;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 0.1rem #000000;
+  box-sizing: border-box;
+  background-color: #ffffff;
+}
+.reply_button a{
+  color: #000000;
+  text-decoration: none;
+}
+input {
+  display: block;
+  width: 60%;
+  padding: 10px 15px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  margin: 10px 0;
+  font-family: 'Inter', sans-serif;
+  font-size: 1.6rem;
+  background-color: #fdfaf7;
+  color: #31525b;
+  outline: none;
+  transition: border-color 0.3s ease;
+  position: absolute;  
+  left: 20.2rem;  
+}
+
+
+input:nth-of-type(1) {
+  top: 59.5rem;  
+}
+
+input:nth-of-type(2) {
+  top: 69.2rem;  
+}
+
+input:focus {
+  border-color: #ffa101;
+}
+
+.main .host-cik input {
+  margin-left: auto;
+  margin-right: auto;
+}
