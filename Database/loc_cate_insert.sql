@@ -414,7 +414,7 @@ values (1128, '안성시', 2, 1100, '경기도 안성시');
 insert into location (loc_num, loc, loc_level, par_loc_num, loc_path)
 values (1129, '안양시', 2, 1100, '경기도 안양시');
 insert into location (loc_num, loc, loc_level, par_loc_num, loc_path)
-values (1130, '양주시', 2, 1100 '경기도 양주시');
+values (1130, '양주시', 2, 1100, '경기도 양주시');
 insert into location (loc_num, loc, loc_level, par_loc_num, loc_path)
 values (1131, '양평시', 2, 1100, '경기도 양평시');
 insert into location (loc_num, loc, loc_level, par_loc_num, loc_path)
