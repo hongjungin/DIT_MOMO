@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /*폰트 설정*/
+        @font-face {
+            font-family: 'Orbit-Regular';
+            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2310@1.0/Orbit-Regular.woff2') format('woff2');
+            font-weight: normal;
+            font-style: normal;
+        }
+        *{
+            font-family: 'Orbit-Regular'; 
+        }
+        body {background-color: #FAE6B1;}
+        nav{
+            font-size: 15pt;
+            font-family: 'Orbit-Regular';
+            position: relative;
+        }
+        nav ul{
+            padding: 0;
+            margin: 0 auto;
+            width: auto;
+        }
+        nav li{
+        }
+        nav a{
+            line-height: 50px;
+          height: 50px;
+        }
+        nav li a{
+            box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+        }
+        nav li:last-child a{
+            border-right: 0;
+            }
+        nav a:hover, nav a:active{
+        }
+        nav a#pull{
+            display: none;
+        }
+        html {
+          -webkit-touch-callout:none;
+          -webkit-user-select:none;
+          -webkit-tap-highlight-color:#FAE6B1;
+        }
+    
+        ul{
+            /*list-style-type: none;*/
+            margin: 0;
+            padding: 0;
+            background-color: #FAE6B1;
+            text-align: center;
+        }
+        li{
+            /*position: relative;*/
+            display: inline-block;
+        }
+        li a{
+            color: #0b0b0b;
+            text-align: center;
+            padding: 14.5px 16px;
+            text-decoration: none;
+        }
+        li a:hover{
+            /*color: #597812;*/
+            color: #FFD400;
+            font-weight:normal;
+        }
+        .menu{
+           width: 5000px;
+           height: 50px;
+           text-align: center;
+           max-width: 100%;
+           background-position: center;
+           background-size: cover;
+           background-color: #FAE6B1;color:#FAE6B1;
+           position: absolute;z-index: 1;
+        }
+        .logo{
+            font-size: 30px;
+            padding-left: 40px;
+        }
+        hr{
+            width: 1200px;
+            color: #FFA101;
+            background-color: #FFA101;
+        }
+        .cancle{
+            margin-top: 50px;
+            text-align: center;
+        }
+        .image-box {
+            width:500px;
+            height:300px;
+            overflow:hidden;
+            margin-top: 50px;
+            margin-bottom: 50px;
+            border: solid 2px;
+            display:inline-block;
+            vertical-align:top;
+            background-color: #F8F8F8;
+        }
+        input{
+            width: 500px;
+            height: 48px;
+            box-sizing: border-box;
+            background-color: #F8F8F8;
+        }
+        input[type="submit"]{
+            width: 150px;
+            color: #fff;
+            font-size: 20px;
+            background-color: #FFA101;
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+    </style>
+     
+</head>
+<body topmargin="0" bottommargin="0" leftmargin="0" rightmargin="0">
+    <div class="logo">
+        <p>MoMo</p>
+    </div>
+    <div class="menu" >
+      <nav class="clearfix">
+        <ul class="clearfix">
+          <li><a href="http://www._____.com">호스트</a></li> 
+          <li><a href="http://www._____.com/About">게스트</a></li>
+      </ul>
+      <a id="pull" href="#"></a>
+    </nav>
+    <hr background-color: #FFA101;>
+    </div><br>
+    <form action="" method="">
+        <div class="cancle">
+            <div class="momowrite" style="font-size: 30px;">모임 취소 하기</div>
+            <div class="image-box"><img style="width: 500px;" id="momo_img" src=""></div>
+            <div class="momowrite" style="font-size: 30px;">취소신청서</div>
+            <div>호스트에게 모임 참가 취소 신청서를 작성해주세요.</div>
+            <ul>
+                <br><li><p>1. 이번 모임을 취소하게 된 이유는 무엇인가요?</p></li><br>
+                <input type="text" name="reason1"><br>
+                <li><p>2. 나중에 다시 참가할 의향이 있나요?</p></li><br>
+                <input type="text" name="reason2"><br>
+            </ul>
+            <input type="submit" value="모임취소하기">
+        </div>
+    </form>
+  </body>
+
+</html>
